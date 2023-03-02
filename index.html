@@ -12,9 +12,21 @@
 		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<!-- <link rel="stylesheet" href="style.css"> -->
+		<link rel="stylesheet" href="style.css">
 		<script src="script.js" defer></script>
 		<script src="js/modernizr.custom.js"></script>
+
+		<!-- BOOTSTRAP LINKS -->
+		<link href="https://fonts.googleapis.com/css?family=Inter|Spartan&display=swap" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+		<link href="https://cdn.bootcss.com/font-awesome/5.5.0/css/all.css" rel="stylesheet"> 
+		<link href="https://cdn.bootcss.com/font-awesome/5.3.0/css/all.css" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css"> 
+		<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script> 
+		<script src="jquery-2.1.4.js"></script> 
+		<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		<div class="container">
@@ -53,6 +65,113 @@
 				<li><a class="codrops-icon codrops-icon-prev" href="#"><span>Previous Demo</span></a></li>
 				<li><a class="codrops-icon codrops-icon-drop" href="#"><span>Back to the Codrops Article</span></a></li>
 			</ul>
+
+
+			<div id="load">
+				<img src="https://i.ibb.co/FqkZCYR/1583650787889.jpg" class="instaLogo"/>
+				<div class="msg">from</div>
+				<div class="cmpName">FACEBOOK</div>
+			</div>
+			
+			<div id="main">
+			  <div class="home-sec">
+				<div class="header">
+					<i id="camera" class="fas fa-camera"></i>
+					<div class="name">Instagram</div>
+					<i id="msg" class="fas fa-ellipsis-v" onclick="about()"></i>
+				</div>
+				<div class="story">
+					<div class="yourStory"><span>Your Story</span></div>
+					<div class="aimuStory"><span>AIMU</span></div>
+					<div class="haileeStory"><span>Hailee</span></div>
+					 <div class="bookStory"><span>Store</span></div>
+					  <div class="witcherStory"><span>Witcher</span></div>
+					  <div class="tyalorStory"><span>Robert DJ</span></div>
+				</div>
+				</div>
+				<div class="home">
+				
+					<!--User First-->
+					<img class="user-img" src="https://i.ibb.co/Rc4j6wf/IMG-20200310-121420.jpg"/>
+					<div class="user-name">Robert Downey Jr.</div>            
+					<img class="user-post" src="https://i.ibb.co/3Fj9Cgm/IMG-20200310-121407.jpg"/>
+					<div class="user-icons">
+						<i class="fas fa-heart"></i>
+						<i class="fas fa-comment" onclick="popUp()"></i>
+						<i class="fas fa-location-arrow" onclick="popUp()"></i>
+					</div>
+					 <!--User third-->
+					<img class="user-img" src="https://i.ibb.co/tHSdzk9/20200308-143344-0000.png"/>
+					<div class="user-name">AIMU</div>            
+					<img class="user-post" src="https://i.ibb.co/zr9dxkH/IMG-20200311-152351.jpg"/>
+					<div class="user-icons">
+					  <i class="fas fa-heart"></i>
+					  <i class="fas fa-comment" onclick="popUp()"></i>
+					  <i class="fas fa-location-arrow" onclick="popUp()"></i>
+					</div>  
+					<!--User Second-->
+					<img class="user-img" src="https://i.ibb.co/s6QNRNj/IMG-20200224-015514.jpg"/>
+					<div class="user-name">Hailee Steinfeld</div>            
+					<img class="user-post" src="https://i.ibb.co/pPJdwK8/20200310-012519-0000.png"/>
+					<div class="user-icons">
+					  <i class="fas fa-heart"></i>
+					  <i class="fas fa-comment" onclick="popUp()"></i>
+					  <i class="fas fa-location-arrow" onclick="popUp()"></i>
+					</div>
+				   <!--User third-->
+					<img class="user-img" src="https://i.ibb.co/nnNGz5b/IMG-20200310-005433.jpg"/>
+					<div class="user-name">Taylor Swift</div>            
+					<img class="user-post" src="https://i.ibb.co/nzrcpkC/Taylor-Swift-0d78d7ff-00a3-34dd-99f3-a6b99dd3804c.jpg"/>
+					<div class="user-icons">
+					  <i class="fas fa-heart"></i>
+					  <i class="fas fa-comment" onclick="popUp()"></i>
+					  <i class="fas fa-location-arrow" onclick="popUp()"></i>
+					</div>  
+					 <!--User forth-->
+					<img class="user-img" src="https://i.ibb.co/7C664kQ/IMG-20200310-005842.jpg"/>
+					<div class="user-name">meme_for_us</div>            
+					<img class="user-post" src="https://i.ibb.co/7C664kQ/IMG-20200310-005842.jpg"/>
+					<div class="user-icons">
+					  <i class="fas fa-heart"></i>
+					  <i class="fas fa-comment" onclick="popUp()"></i>
+					  <i class="fas fa-location-arrow" onclick="popUp()"></i>
+					</div>  
+					  <!--User fifth-->
+					<img class="user-img" src="https://i.ibb.co/tHSdzk9/20200308-143344-0000.png"/>
+					<div class="user-name">AIMU_Official</div>            
+					<img class="user-post" src="https://i.ibb.co/9wQ95RJ/IMG-20200311-151948.jpg"/>
+					<div class="user-icons">
+					  <i class="fas fa-heart"></i>
+					  <i class="fas fa-comment" onclick="popUp()"></i>
+					  <i class="fas fa-location-arrow" onclick="popUp()"></i>
+					</div>  
+				   <!---->
+				</div>
+				
+				<div class="profile">
+					<div class="profile-user-bg"></div>
+					<div class="profile-user-img"></div>
+					<div class="profile-user-name">Rishabh Singh</div>
+					<div class="card">
+						 <set>Post<span class="font"><br><br>789</span></set>
+						 <set>Followers<span class="font"><br><br>107 K</span></set>
+						 <set>Following<span class="font"><br><br>672</span></set> 
+						
+					</div>
+				</div>
+				<div class="tab">
+					<div class="icons">
+						<i class="fas fa-home"></i>
+						<i class="fas fa-search" onclick="popUp()"></i>
+						<i class="fas fa-plus" onclick="popUp()"></i>
+						<i class="fas fa-heart" onclick="popUp()"></i>
+						<i class="fas fa-user"></i>
+					</div>
+				</div>
+			</div>
+
+
+
 			
 		</div><!-- /container -->
 		<script src="js/classie.js"></script>
