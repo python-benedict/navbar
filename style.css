@@ -68,3 +68,14 @@ body {
   }
   
   /* -------------------------------------------------- */
+
+  /* Main Content */
+.main-container {
+    background-color: var(--primary);
+  
+    margin-top: var(--header-height);
+    margin-bottom: var(--nav-height);
+  
+    display: flex;
+    flex: 1;
+  }
