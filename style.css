@@ -98,16 +98,15 @@ body {
     flex-direction: column;
   }
 
-
-.stories {
+  .stories {
     width: 100%;
     background-color: var(--primary);
     padding: 16px 0;
     flex-shrink: 0;
   
-    position: relative;
+    /* position: relative; */
     overflow: hidden;
-  }
+  } 
   .stories::after {
     content: '';
     position: absolute;
@@ -117,24 +116,43 @@ body {
     height: 1px;
     background-color: var(--border);
   }
-  .stories__content {
+   .stories__content {
     display: flex;
-    overflow-x: auto;
-    overflow-y: hidden;
     gap: 16px;
     padding: 0 16px;
-    position: relative;
-  
+    overflow-x: auto;
+    /* overflow-y: hidden;  
+    position: relative; */
     scroll-behavior: smooth;
     scrollbar-width: none;
   }
   .stories__content::-webkit-scrollbar {
     display: none;
   }
-
+  
   .posts {
     display: flex;
     flex-direction: column;
     flex: 1;
     gap: 8px;
+  }
+  
+  .stories__left-button,
+  .post__left-button,
+  .stories__right-button,
+  .post__right-button {
+    width: 24px;
+    height: 24px;
+    display: none;
+  
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
+  
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
   }
