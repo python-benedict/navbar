@@ -131,3 +131,10 @@ body {
   .stories__content::-webkit-scrollbar {
     display: none;
   }
+
+  .posts {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 8px;
+  }
