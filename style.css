@@ -183,3 +183,15 @@ body {
     align-items: center;
     gap: 6px;
   } 
+
+  .story__avatar {
+    position: relative;
+  }
+  .story__border {
+    width: 64px;
+    height: 64px;
+  
+    fill: none;
+    stroke: var(--story-border);
+    stroke-width: 1.5;
+  }
