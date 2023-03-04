@@ -195,3 +195,19 @@ body {
     stroke: var(--story-border);
     stroke-width: 1.5;
   }
+
+  .story--has-story .story__border {
+    stroke: url(#--story-gradient);
+    stroke-width: 2;
+  }
+  .story__picture {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
